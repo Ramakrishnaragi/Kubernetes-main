@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ebs-claim
 spec:
-  storageClassName: ""
+  #storageClassName: ""
   accessModes:
     - ReadWriteOnce
   resources:
